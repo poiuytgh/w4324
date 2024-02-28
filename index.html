@@ -1,41 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="MyCss.css">
-  
-  <title>Front End Quiz 1</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Example</title>
+<link rel="stylesheet" href="styles.css">
 </head>
-<body>
+<body> <header>
+  <h2>ชั้นหนังสือ</h2>
+<div class="spacer"></div>
+<h2>วิธีใช้งาน</h2>
+<div class="triangle"></div>
+  <div class="spacer"></div>
+  <div class="logo">
+      <h1><img src="Resource/Logo.png"></h1>
+  </div>
+  <div class="icons">
+      <img src="Resource/Home.png">
+      <img src="Resource/search.png">
+      <img src="Resource/bell.png">
+      <img src="Resource/User.png">
+  </div>
+</header>
+<div class="title">ชั้นหนังสือของฉัน</div>
+    <div class="buttons">
+        <div class="button yellow">ดูล่าสุด</div>
+        <div class="button green">ชั้นหนังสือ</div>
+        <div class="button green">ติดตาม</div>
+        <div class="button green">ลิสต์</div>
+        <div class="line"></div>
+    </div>
+      
+    <div class="container1">
+      <div class="box">
+        <span class="arrow"><</span>
+      </div>
+      <span class="page">Page 1</span>
+      <div class="box rotated">
+        <span class="arrow rotated">></span>
+      </div>
+    </div>
 
-  <header>
-    <h1>Front End Quiz 1</h1>
-  </header>
-
-  <nav>
-    <h2>Left Page</h2>
-    <a href="https://www.google.com" target="_blank">Page 1</a>
-    <a href="https://www.google.com" target="_blank">Page 2</a>
-    <a href="https://www.google.com" target="_blank">Page 3</a>
-    <a href="https://www.google.com" target="_blank">Page 4</a>
-  </nav>
-
-  <div class="main-content">
-    <h1>Body Page</h1>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam facere sed dicta officiis iste suscipit voluptate nihil labore odio quasi sequi, deleniti, tempore nam, expedita consequatur. Suscipit cumque voluptatibus voluptas?</p>
+<div class="container">
+  <div class="group">
+    <div class="profile">
+      <img src="Resource/จอร์จ อาร์. อาร์. มาร์ติน.png">
+      <div class="info">
+        <div>จอร์จ อาร์. อาร์. มาร์ติน</div>
+        <div>-</div>
+      </div>
+    </div>
+    <div>ติดตามแล้ว</div>
   </div>
 
-  <div class="right-panel">
-    <h2>Right Page</h2>
-    <a href="Resource/cookierun.jpeg">
-      <img src="Resource/cookierun.jpeg" alt="cookierun Image">
-    </a>
+  <div class="group">
+    <div class="profile">
+      <img src="Resource/ZiFenShangshen.png">
+      <div class="info">
+        <div>ZiFenShangshen</div>
+        <div>ขอบคุณทุกคนที่คอยติดตามผลงานนะคะ</div>
+      </div>
+    </div>
+    <div>ติดตามแล้ว</div>
   </div>
 
-  <footer>
-    Footer
-  </footer>
+  <div class="group">
+    <div class="profile">
+      <img src="Resource/sonia.binggaraboo.png">
+      <div class="info">
+        <div>sonia.binggaraboo</div>
+        <div>ซอนย่า.บิงการาบู้ว</div>
+      </div>
+    </div>
+    <div>ติดตามแล้ว</div>
+  </div>
 
-</body>
-</html>
+  <div class="group">
+    <div class="profile">
+      <img src="Resource/Clover book.png">
+      <div class="info">
+        <div>Clover book</div>
+        <div>สำนักพิมพ์ Clover book</div>
+      </div>
+    </div>
+    <div>ติดตามแล้ว</div>
+  </div>
+
+  <div class="group">
+    <div class="profile">
+      <img src="Resource/lilac-novel.png">
+      <div class="info">
+        <div>lilac-novel</div>
+        <div>@lilacnovel</div>
+      </div>
+    </div>
+    <div>ติดตามแล้ว</div>
+  </div>
+</div>
+
+<footer class="container1">
+  <div class="box">
+      <span class="arrow">&lt;</span>
+  </div>
+  <span class="page">Page 1</span>
+  <div class="box rotated">
+      <span class="arrow rotated">&gt;</span>
+  </div>
